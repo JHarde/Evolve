@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+    
+.logo {
+    width:90%;
+    margin-top: 55%;
+    align-content: center;
+    display: flex;
+    padding-bottom: 25%;
+}
+
+.info {
+    display: inline-block;
+   
+}
+
+.contact {
+    display: inline-block;
+    
+}
+
+footer  {
+
+    background: lightgray;
+    width: 100%;
+    position: bottom;
+
+}
+
+
+
+
+
+/*iphone*/
+@media only screen and (min-width: 375px) {
+    footer{
+        height: 275px;
+    }
+  }
+
+  /*ipad*/
+  @media only screen and (min-width: 768px) {
+    footer{
+        height: 150px;
+    }
+  }
+  /*desktop*/
+  @media only screen and (min-width: 1024px) {
+    footer{
+        height: 200px;
+    }
+  }
+  
